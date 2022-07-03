@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search</title>
+</head>
+
+<body>
+	<h1>Search</h1>
+
+	<form action="https://fom.in.ua/echo">
+		<!--checkboxes-->
+		<div style="display: inline-block; margin-right: 50px;">
+			<h2>Body Type</h2>
+			<div>
+				<input type="checkbox" name="sedan" id="sedan">
+				<label for="sedan">Sedan</label>
+			</div>
+			<div>
+				<input type="checkbox" name="coupe" id="coupe">
+				<label for="coupe">Coupe</label>
+			</div>
+			<div>
+				<input type="checkbox" name="sports" id="sports">
+				<label for="sports">Sports car</label>
+			</div>
+			<div>
+				<input type="checkbox" name="hatchback" id="hatchback">
+				<label for="hatchback">Hatchback</label>
+			</div>
+		</div>
+		<div style="display: inline-block; margin-right: 69px;">
+			<h2>Fuel Type</h2>
+			<div>
+				<input type="checkbox" name="gas" id="gas">
+				<label for="gas">Gas</label>
+			</div>
+			<div>
+				<input type="checkbox" name="flex" id="flex">
+				<label for="flex">Flex</label>
+			</div>
+			<div>
+				<input type="checkbox" name="hybrid" id="hybrid">
+				<label for="hybrid">Hybrid</label>
+			</div>
+			<div>
+				<input type="checkbox" name="otherFuel" id="otherFuel">
+				<label for="otherFuel">Other</label>
+			</div>
+		</div>
+		<div style="display: inline-block;">
+			<h2>Engine</h2>
+			<div>
+				<input type="checkbox" name="4cyl" id="4cyl">
+				<label for="4cyl">4 Cyl</label>
+			</div>
+			<div>
+				<input type="checkbox" name="5cyl" id="5cyl">
+				<label for="5cyl">5 Cyl</label>
+			</div>
+			<div>
+				<input type="checkbox" name="6cyl" id="6cyl">
+				<label for="6cyl">6 Cyl</label>
+			</div>
+			<div>
+				<input type="checkbox" name="otherEngine" id="otherEngine">
+				<label for="otherEngine">Other</label>
+			</div>
+		</div>
+		<br>
+		<div style="display: inline-block; margin-right: 91px;">
+			<h2>Color</h2>
+			<div>
+				<input type="checkbox" name="black" id="black">
+				<label for="black">Black</label>
+			</div>
+			<div>
+				<input type="checkbox" name="white" id="white">
+				<label for="white" style="color: white; background-color: black;">White</label>
+			</div>
+			<div>
+				<input type="checkbox" name="red" id="red">
+				<label for="red" style="color: red;">Red</label>
+			</div>
+			<div>
+				<input type="checkbox" name="brown" id="brown">
+				<label for="brown" style="color: brown;">Brown</label>
+			</div>
+		</div>
+		<div style="display: inline-block; margin-right: 25px;">
+			<h2>Safety</h2>
+			<div>
+				<input type="checkbox" name="antiTheft" id="antiTheft">
+				<label for="antiTheft">Anti-Theft Sys.</label>
+			</div>
+			<div>
+				<input type="checkbox" name="blindSpot" id="blindSpot">
+				<label for="blindSpot">Blind Spot Sens.</label>
+			</div>
+			<div>
+				<input type="checkbox" name="parkAssist" id="parkAssist">
+				<label for="parkAssist">Park Assist</label>
+			</div>
+			<div>
+				<input type="checkbox" name="rearView" id="rearView">
+				<label for="rearView">Rear View Camera</label>
+			</div>
+		</div>
+		<div style="display: inline-block;">
+			<h2>Convenience</h2>
+			<div>
+				<input type="checkbox" name="ac" id="ac">
+				<label for="ac">A/C</label>
+			</div>
+			<div>
+				<input type="checkbox" name="cooledSeats" id="cooledSeats">
+				<label for="cooledSeats">Cooled Seats</label>
+			</div>
+			<div>
+				<input type="checkbox" name="heatedSeats" id="heatedSeats">
+				<label for="heatedSeats">Heated Seats</label>
+			</div>
+			<div>
+				<input type="checkbox" name="keyless" id="keyless">
+				<label for="keyless">Keyless Entry</label>
+			</div>
+		</div>
+		</div>
+
+		<!--fieldsets-->
+		<fieldset>
+			<legend>
+				<h2>Car Brand</h2>
+			</legend>
+			<div>
+				<div style="margin-bottom: 18px;">
+					<img src="images/japan.png" alt="" width="30px">
+					<span style="font-size: 1.17em; font-weight: bold;">Japan</span>
+				</div>
+
+				<div>
+					<input type="checkbox" name="honda" id="honda">
+					<label for="honda">Honda</label>
+				</div>
+				<div>
+					<input type="checkbox" name="lexus" id="lexus">
+					<label for="lexus">Lexus</label>
+				</div>
+				<div>
+					<input type="checkbox" name="mazda" id="mazda">
+					<label for="mazda">Mazda</label>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<div style="margin-bottom: 18px;">
+					<img src="images/south-korea.png" alt="" width="30px">
+					<span style="font-size: 1.17em; font-weight: bold;">South Korea</span>
+				</div>
+				<div>
+					<input type="checkbox" name="hyundai" id="hyundai">
+					<label for="hyundai">Hyundai</label>
+				</div>
+				<div>
+					<input type="checkbox" name="kia" id="kia">
+					<label for="kia">Kia</label>
+				</div>
+				<div>
+					<input type="checkbox" name="daewoo" id="daewoo">
+					<label for="daewoo">Daewoo</label>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<div style="margin-bottom: 18px;">
+					<img src="images/france.png" alt="" width="30px">
+					<span style="font-size: 1.17em; font-weight: bold;">France</span>
+				</div>
+				<div>
+					<input type="checkbox" name="bugatti" id="bugatti">
+					<label for="bugatti">Bugatti</label>
+				</div>
+				<div>
+					<input type="checkbox" name="citroen" id="citroen">
+					<label for="citroen">Citroën</label>
+				</div>
+				<div>
+					<input type="checkbox" name="peugeot" id="peugeot">
+					<label for="peugeot">Peugeot</label>
+				</div>
+				<hr>
+			</div>
+			<div>
+				<div style="margin-bottom: 18px;">
+					<img src="images/germany.png" alt="" width="30px">
+					<span style="font-size: 1.17em; font-weight: bold;">Germany</span>
+				</div>
+				<div>
+					<input type="checkbox" name="audi" id="audi">
+					<label for="audi">Audi</label>
+				</div>
+				<div>
+					<input type="checkbox" name="bmw" id="bmw">
+					<label for="bmw">BMW</label>
+				</div>
+				<div>
+					<input type="checkbox" name="mercedes" id="mercedes">
+					<label for="mercedes">Mercedes-Benz</label>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<div style="margin-bottom: 18px;">
+					<img src="images/italy.png" alt="" width="30px">
+					<span style="font-size: 1.17em; font-weight: bold;">Italy</span>
+				</div>
+				<div>
+					<input type="checkbox" name="alfaRomeo" id="alfaRomeo">
+					<label for="alfaRomeo">Alfa Romeo</label>
+				</div>
+				<div>
+					<input type="checkbox" name="lamborghini" id="lamborghini">
+					<label for="lamborghini">Lamborghini</label>
+				</div>
+				<div>
+					<input type="checkbox" name="maserati" id="maserati">
+					<label for="maserati">Maserati</label>
+				</div>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<h2>Condition</h2>
+			</legend>
+			<div>
+				<h3>Participation in a road accident</h3>
+				<div>
+					<input type="radio" name="accidents" id="accidentNotSpecified" value="not specified" checked>
+					<label for="accidentNotSpecified">Not specified</label>
+				</div>
+				<div>
+					<input type="radio" name="accidents" id="accidentNo" value="no">
+					<label for="accidentNo">Wasn't in an accident</label>
+				</div>
+				<div>
+					<input type="radio" name="accidents" id="accidentYes" value="yes">
+					<label for="accidentYes">Was in an accident</label>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<h3>Damage</h3>
+				<div>
+					<input type="radio" name="damage" id="noDamage" value="none" checked>
+					<label for="noDamage">None</label>
+				</div>
+				<div>
+					<input type="radio" name="damage" id="repaired" value="repaired">
+					<label for="repaired">Professionally repaired damage</label>
+				</div>
+				<div>
+					<input type="radio" name="damage" id="unrepaired" value="unrepaired">
+					<label for="unrepaired">Unrepaired damage</label>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<h3>State</h3>
+				<div>
+					<input type="checkbox" name="new" id="new" checked>
+					<label for="new">New</label>
+				</div>
+				<div>
+					<input type="checkbox" name="used" id="used" checked>
+					<label for="used">Used</label>
+				</div>
+				<div>
+					<input type="checkbox" name="forParts" id="forParts">
+					<label for="forParts">For spare parts</label>
+				</div>
+			</div>
+		</fieldset>
+
+		<!--numbers-->
+		<div>
+			<h2>Price</h2>
+			<input type="number" name="priceFrom" id="priceFrom" min="2000" max="50000" value="2000">
+			-
+			<input type="number" name="priceTo" id="priceTo" min="2000" max="50000" value="50000">
+		</div>
+		<div>
+			<h2>Year Of Manufacture</h2>
+			<input type="number" name="year" id="year" min="1999" max="2022" value="1999">
+		</div>
+
+		<br>
+		<input type="submit" value="Search">
+	</form>
+</body>
+
+</html>
