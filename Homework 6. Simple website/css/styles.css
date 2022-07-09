@@ -1,0 +1,255 @@
+@import url(./_fonts.css);
+@import url(./_tags.css);
+
+* {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+/*first-screen*/
+.first-screen {
+	position: absolute;
+	width: 1920px;
+	height: 700px;
+	background: #EEEFF1;
+	left: 0;
+	top: 0;
+}
+
+.first-screen_menu {
+	position: absolute;
+	width: 611px;
+	height: 16px;
+	left: 399px;
+	top: 79px;
+}
+
+.first-screen_description {
+	position: absolute;
+	width: 540px;
+	height: 67px;
+	left: 400px;
+	top: 362px;
+	text-align: start;
+}
+
+.button-text {
+	position: absolute;
+	width: 143px;
+	height: 26px;
+	left: 41px;
+	top: 19px;
+
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: #FFFFFF;
+}
+
+.current {
+	color: #34547A;
+}
+
+/*first-screen links positioning*/
+.link1 {
+	position: absolute;
+	width: 84px;
+}
+
+.link2 {
+	position: absolute;
+	width: 100px;
+	left: 126px;
+}
+
+.link3 {
+	position: absolute;
+	width: 74px;
+	left: 268px;
+}
+
+.link4 {
+	position: absolute;
+	width: 86px;
+	left: 384px;
+}
+
+.link5 {
+	position: absolute;
+	width: 99px;
+	left: 512px;
+}
+
+
+/*about-me*/
+.about-me {
+	position: absolute;
+	width: 540px;
+	height: 147px;
+	left: 690px;
+	top: 812px;
+
+}
+
+.about-me_title {
+	position: absolute;
+	width: 403px;
+	height: 30px;
+	left: 68px;
+
+}
+
+.about-me_description {
+	position: absolute;
+	width: 540px;
+	height: 67px;
+	top: 80px;
+}
+
+
+/*numbers*/
+.numbers {
+	position: absolute;
+	width: 1920px;
+	height: 250px;
+	left: 0px;
+	top: 1059px;
+
+	background: #34547A;
+}
+
+/*numbers items positioning*/
+.numbers-item1 {
+	position: absolute;
+	width: 141px;
+	height: 50px;
+	left: 409px;
+	top: 100px;
+}
+
+.numbers-item2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 595px;
+	top: 100px;
+}
+
+.numbers-item3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 785px;
+	top: 100px;
+}
+
+.numbers-item4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 975px;
+	top: 100px;
+}
+
+.numbers-item5 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1165px;
+	top: 100px;
+}
+
+.numbers-item6 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1355px;
+	top: 100px;
+}
+
+/*numbers-item childs*/
+.numbers-item_text {
+	position: absolute;
+	width: 71px;
+	height: 44px;
+	left: 70px;
+	top: 3px;
+}
+
+.numbers-item_text h3 {
+	position: absolute;
+	width: 36px;
+	height: 19px;
+	margin: 0;
+}
+
+.numbers-item_text p {
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #FFFFFF;
+	margin: 0;
+
+	position: absolute;
+	width: 71px;
+	height: 15px;
+	top: 29px;
+}
+
+
+/*video*/
+.video {
+	position: absolute;
+	width: 1920px;
+	height: 1004px;
+	left: 0px;
+	top: 1309px;
+}
+
+.video-text {
+	position: absolute;
+	width: 540px;
+	height: 147px;
+	left: 690px;
+	top: 109px;
+}
+
+.video-text_title {
+	position: absolute;
+	width: 403px;
+	height: 30px;
+	left: 68px;
+}
+
+.video-text_description {
+	position: absolute;
+	width: 540px;
+	height: 67px;
+	top: 71px;
+}
+
+/*footer*/
+footer h3 {
+	position: absolute;
+	width: 130px;
+	height: 19px;
+	left: 406px;
+	top: 50px;
+}
+
+footer p {
+	position: absolute;
+	width: 193px;
+	height: 12px;
+	left: 406px;
+	top: 89px;
+
+	font-size: 13px;
+	line-height: 21px;
+
+	color: #FFFFFF;
+}
