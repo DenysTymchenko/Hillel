@@ -1,0 +1,112 @@
+@import url(./_fonts.css);
+@import url(./_tags.css);
+
+body {
+	background-color: #EEEFF1;
+}
+
+* {
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 26.25px;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*first-screen*/
+.first-screen_menu {
+	margin-top: 79px;
+	margin-left: 400px;
+}
+
+.current {
+	color: #34547A;
+	font-weight: 500;
+}
+
+.first-screen h1 {
+	margin-top: 162px;
+	margin-left: 399px;
+}
+
+.first-screen_description {
+	margin-top: 60px;
+	margin-left: 400px;
+}
+
+
+
+/*about-me*/
+.about-me {
+	background-color: #FFFFFF;
+}
+
+.about-me_title {
+	padding-top: 112px;
+}
+
+.about-me_description {
+	text-align: center;
+	margin: auto;
+	padding: 50px 0 100px;
+}
+
+
+
+/*numbers*/
+.numbers {
+	background: #34547A;
+}
+
+.numbers-items {
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
+	justify-content: center;
+	padding: 100px 429px 100px 409px;
+}
+
+.numbers-item {
+	display: inherit;
+}
+
+.numbers-item_text {
+	padding-left: 20px;
+}
+
+.numbers-item_text p {
+	width: fit-content;
+	height: fit-content;
+	color: #FFFFFF;
+	line-height: 26px;
+}
+
+
+
+/*video*/
+.video-text_title {
+	padding-top: 100px;
+}
+
+.video-text_description {
+	text-align: center;
+	margin: auto;
+	padding: 50px 0 57px;
+}
+
+
+
+/*footer*/
+footer h3 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+footer p {
+	font-size: 13px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
