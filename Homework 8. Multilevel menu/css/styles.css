@@ -27,6 +27,7 @@ nav .menu>li>a {
 /*menu*/
 .menu {
 	position: relative;
+	border-bottom: 5px solid #009EFF;
 }
 
 .menu>li>a {
