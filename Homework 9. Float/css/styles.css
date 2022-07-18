@@ -38,12 +38,16 @@ h3 {
 	display: inline-block;
 	width: 1000px;
 	background: #E6E6E6;
-	margin: 50px;
+	margin-bottom: 50px;
 }
 
 
 
 /*box-1*/
+.box-1 {
+	margin-top: 50px;
+}
+
 .box-1 .rectangle-1,
 .box-1 .rectangle-2 {
 	width: 200px;
