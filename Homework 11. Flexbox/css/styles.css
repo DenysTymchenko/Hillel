@@ -6,9 +6,33 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Graphik LCG';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
 a {
 	text-decoration: none;
 	color: black;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 60px;
+}
+
+.try-free h2,
+.integrate h2 {
+	font-size: 65px;
+	line-height: 75px;
+}
+
+.buttons,
+.btn {
+	font-size: 16;
 }
 
 
@@ -18,9 +42,7 @@ header {
 	width: 100%;
 	background-color: white;
 	border-bottom: 1px solid #CCCCCC;
-
 	padding: 31px 0 24px;
-
 	display: flex;
 }
 
@@ -37,9 +59,6 @@ header .logo-and-nav .logo,
 
 .logo-and-nav nav li {
 	display: inline;
-
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 15px;
 	line-height: 20px;
 }
@@ -49,25 +68,18 @@ header .buttons {
 	display: flex;
 	justify-content: end;
 	gap: 10px;
-}
-
-header .buttons {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 16px;
 	line-height: 45px;
 }
 
 header .buttons .btn1 {
 	border: 1px solid rgba(0, 0, 0, 0.5);
-
 	padding: 0 36px;
 }
 
 header .buttons .btn2 {
 	color: #FFFFFF;
 	background: #FF6336;
-
 	padding: 0 22px;
 }
 
@@ -77,27 +89,21 @@ header .buttons .btn2 {
 .first-block {
 	display: flex;
 	justify-content: center;
-
 	padding: 129px 0 172px;
 }
 
 .first-block .text h1 {
 	width: 552px;
-
-	font-family: 'Graphik LCG';
 	font-weight: 600;
 	font-size: 65px;
 	line-height: 70px;
-
 	margin-bottom: 51px;
 }
 
 .first-block .text p {
 	width: 471px;
-
 	font-size: 25px;
 	line-height: 35px;
-
 	margin-bottom: 51px;
 }
 
@@ -106,37 +112,24 @@ header .buttons .btn2 {
 }
 
 .text .buttons .btn1 {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 16px;
 	line-height: 60px;
-
 	text-align: center;
 	color: #FFFFFF;
-
 	background: #FF6336;
-
 	padding: 20px 41px;
-
 	margin-right: 10px;
 }
 
 .text .buttons .btn2 {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 16px;
 	line-height: 60px;
-
 	text-align: center;
-
 	padding: 20px 29px;
-
 	border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .first-block .text .bottom-paragraph {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 15px;
 	line-height: 25px;
 }
@@ -148,22 +141,13 @@ header .buttons .btn2 {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-
 	background: #FF9C7D;
-
 	padding: 108px 0 103px;
 }
 
 .companies h2 {
 	align-self: center;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 50px;
-	line-height: 60px;
-
 	text-align: center;
-
 	width: 720px;
 	margin-bottom: 70px;
 }
@@ -184,7 +168,6 @@ header .buttons .btn2 {
 	display: flex;
 	justify-content: center;
 	gap: 165px;
-
 	margin-top: 250px;
 }
 
@@ -194,21 +177,10 @@ header .buttons .btn2 {
 
 .features .feature h2 {
 	margin-top: 151px;
-
 	width: 493px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 50px;
-	line-height: 60px;
 }
 
 .features .feature p {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-
 	margin: 30px 0;
 }
 
@@ -225,19 +197,13 @@ header .buttons .btn2 {
 	width: 520px;
 }
 
-.features .feature a.underline {
-	text-decoration: underline;
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
+.features .feature a {
+	font-weight: 600;
 }
 
-.features .feature a {
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 30px;
+.features .feature a.underline {
+	text-decoration: underline;
+	font-weight: 400;
 }
 
 
@@ -248,17 +214,11 @@ header .buttons .btn2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding: 120px 0 147px;
 }
 
 .localizations h2 {
 	margin-bottom: 79px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 50px;
-	line-height: 60px;
 }
 
 .localizations .localizations-list {
@@ -266,7 +226,6 @@ header .buttons .btn2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 75px 120px;
-
 	text-align: center;
 }
 
@@ -276,16 +235,11 @@ header .buttons .btn2 {
 
 .localizations-list .localizations-list_item h4 {
 	margin: 26px 0 20px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
 	font-size: 25px;
 	line-height: 35px;
 }
 
 .localizations-list .localizations-list_item p {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
 }
@@ -298,15 +252,7 @@ header .buttons .btn2 {
 	flex-direction: column;
 	align-items: center;
 	gap: 75px;
-
 	padding: 154px 0 187px;
-}
-
-.productivity h2 {
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 50px;
-	line-height: 60px;
 }
 
 .productivity .productivity-list {
@@ -317,7 +263,6 @@ header .buttons .btn2 {
 
 .productivity .productivity-list .productivity-list_item {
 	width: 440px;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -332,27 +277,16 @@ header .buttons .btn2 {
 }
 
 .productivity-list .productivity-list_item h4 {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 40px;
 }
 
 .productivity-list .productivity-list_item p {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-
 	width: 409px;
 }
 
 .productivity-list .productivity-list_item a {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-
 	text-decoration: underline;
 }
 
@@ -361,22 +295,16 @@ header .buttons .btn2 {
 /* REVIEW */
 .review {
 	background-color: #C9E8F2;
-
 	display: flex;
 	justify-content: center;
 	gap: 59px;
-
 	padding: 63px 0 105px;
 }
 
 .review .review-text p:first-child {
 	width: 920px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 30px;
 	line-height: 40px;
-
 	margin-bottom: 23px;
 }
 
@@ -385,7 +313,6 @@ header .buttons .btn2 {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 25px;
-
 	margin-bottom: 7px;
 }
 
@@ -395,9 +322,7 @@ header .buttons .btn2 {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-
 	background-color: #DABC98;
-
 	padding: 90px 0;
 }
 
@@ -409,9 +334,6 @@ header .buttons .btn2 {
 .awards .big-award h2 {
 	width: 461px;
 	margin: 0 67px 0 124px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
 	font-size: 35px;
 	line-height: 50px;
 }
@@ -419,9 +341,7 @@ header .buttons .btn2 {
 .awards .small-awards {
 	display: flex;
 	gap: 70px;
-
 	border-left: 1px solid black;
-
 	padding-left: 71px;
 }
 
@@ -430,7 +350,6 @@ header .buttons .btn2 {
 /* INTEGRATE */
 .integrate {
 	padding: 165px 0;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -438,23 +357,12 @@ header .buttons .btn2 {
 
 .integrate h2 {
 	width: 791px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 65px;
-	line-height: 75px;
-
 	text-align: center;
 }
 
 .integrate p {
 	width: 539px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 25px;
-	line-height: 30px;
-
 	text-align: center;
 }
 
@@ -463,15 +371,10 @@ header .buttons .btn2 {
 }
 
 .integrate .btn {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 16px;
 	line-height: 60px;
-	/* identical to box height, or 375% */
-
 	color: #FFFFFF;
 	background-color: #FF6336;
-
 	padding: 0 20px;
 }
 
@@ -480,44 +383,27 @@ header .buttons .btn2 {
 /* TRY FREE */
 .try-free {
 	padding: 119px 0 161px;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	background-color: #FF9C7D;
 }
 
 .try-free h2 {
 	width: 784px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 600;
-	font-size: 65px;
-	line-height: 75px;
-
 	text-align: center;
-
 }
 
 .try-free p {
 	margin: 29px 0 54px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
 }
 
 .try-free .btn {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
 	font-size: 17px;
 	line-height: 60px;
-
 	color: #FFFFFF;
 	background-color: #000000;
-
 	padding: 0 40px;
 }
 
@@ -527,7 +413,6 @@ header .buttons .btn2 {
 .links {
 	display: flex;
 	justify-content: space-evenly;
-
 	padding: 92px 0 95px;
 }
 
@@ -538,20 +423,14 @@ header .buttons .btn2 {
 }
 
 .links .column h2 {
-	font-family: 'Graphik LCG';
-	font-weight: 600;
 	font-size: 40px;
 	line-height: 50px;
-
 	margin-bottom: 28px;
 }
 
 .links .column h3 {
 	padding-bottom: 21px;
-
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 20px;
 	line-height: 25px;
 }
 
@@ -565,26 +444,15 @@ header .buttons .btn2 {
 
 .links .column p {
 	width: 290px;
-
 	margin-bottom: 15px;
-	font-family: 'Graphik LCG';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
 }
 
 .links .column:first-child a {
-	font-family: 'Graphik LCG';
 	font-weight: 600;
-	font-size: 20px;
-	line-height: 30px;
 }
 
 .links .column a {
 	padding-bottom: 15px;
-
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 15px;
 	line-height: 15px;
 }
@@ -604,8 +472,6 @@ footer {
 }
 
 footer p {
-	font-family: 'Graphik LCG';
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
 }
