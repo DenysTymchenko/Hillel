@@ -1,0 +1,197 @@
+@import url(./_fonts.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* HEADER */
+header {
+	padding: 79px 0 0 20.7%;
+	background-color: #EEEFF1;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 45px;
+}
+
+ul li a {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+
+	color: #000000;
+}
+
+ul li a.current {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+
+	color: #34547A;
+}
+
+
+
+/* CONTACT */
+.contact {
+	padding: 162px 0 141px 20.7%;
+	background-color: #EEEFF1;
+}
+
+.contact h1 {
+	margin-bottom: 60px;
+
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 79px;
+}
+
+.contact p {
+	margin-bottom: 65px;
+
+	width: 540px;
+
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+
+.contact .btn {
+	padding: 20px 40px;
+
+	background-color: #34547A;
+
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+
+
+
+
+/* ABOUT ME */
+.about-me {
+	padding: 112px 0 100px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-me h2 {
+	margin-bottom: 50px;
+
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+}
+
+.about-me p {
+	width: 540px;
+
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #727272;
+}
+
+
+
+/* PROJECTS */
+.projects {
+	padding: 100px 0;
+
+	background-color: #34547A;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.projects .projects-item {
+	display: flex;
+	gap: 20px;
+}
+
+.projects .projects-item h4 {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.projects .projects-item p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+
+
+/* WORK PROCCES */
+.work-procces {
+	padding: 100px 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.work-procces h2 {
+	margin-bottom: 50px;
+
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.work-procces p {
+	margin-bottom: 57px;
+
+	width: 540px;
+
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #727272;
+}
+
+
+
+/* FOOTER */
+footer {
+	padding: 50px 0 50px 21.1%;
+
+	background-color: #34547A;
+}
+
+footer h4 {
+	margin-bottom: 20px;
+
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+footer p {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	color: #FFFFFF;
+
+}
