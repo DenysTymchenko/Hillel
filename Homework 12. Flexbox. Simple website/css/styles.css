@@ -4,13 +4,23 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
 
+body {
 	font-family: 'Roboto';
 	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
 }
 
 a {
 	text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+	font-weight: 500;
 }
 
 
@@ -27,19 +37,13 @@ nav ul li {
 }
 
 ul li a {
-	font-size: 16px;
-	line-height: 26px;
 	letter-spacing: 0.1em;
-
 	color: #000000;
 }
 
 ul li a.current {
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 26px;
 	letter-spacing: 0.1em;
-
 	color: #34547A;
 }
 
@@ -53,29 +57,19 @@ ul li a.current {
 
 .contact h1 {
 	margin-bottom: 60px;
-
-	font-weight: 500;
 	font-size: 48px;
 	line-height: 79px;
 }
 
 .contact p {
 	margin-bottom: 65px;
-
 	width: 540px;
-
-	font-size: 16px;
-	line-height: 26px;
 	color: #727272;
 }
 
 .contact .btn {
 	padding: 20px 40px;
-
 	background-color: #34547A;
-
-	font-size: 16px;
-	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: #FFFFFF;
@@ -95,8 +89,6 @@ ul li a.current {
 
 .about-me h2 {
 	margin-bottom: 50px;
-
-	font-weight: 500;
 	font-size: 32px;
 	line-height: 38px;
 	text-align: center;
@@ -104,9 +96,6 @@ ul li a.current {
 
 .about-me p {
 	width: 540px;
-
-	font-size: 16px;
-	line-height: 26px;
 	text-align: center;
 	color: #727272;
 }
@@ -116,8 +105,8 @@ ul li a.current {
 /* PROJECTS */
 .projects {
 	padding: 100px 0;
-
 	background-color: #34547A;
+	color: #FFFFFF;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -128,16 +117,8 @@ ul li a.current {
 }
 
 .projects .projects-item h4 {
-	font-weight: 500;
 	font-size: 21px;
 	line-height: 25px;
-	color: #FFFFFF;
-}
-
-.projects .projects-item p {
-	font-size: 16px;
-	line-height: 26px;
-	color: #FFFFFF;
 }
 
 
@@ -153,19 +134,13 @@ ul li a.current {
 
 .work-procces h2 {
 	margin-bottom: 50px;
-
-	font-weight: 500;
 	font-size: 32px;
 	line-height: 38px;
 }
 
 .work-procces p {
 	margin-bottom: 57px;
-
 	width: 540px;
-
-	font-size: 16px;
-	line-height: 26px;
 	text-align: center;
 	color: #727272;
 }
@@ -175,23 +150,18 @@ ul li a.current {
 /* FOOTER */
 footer {
 	padding: 50px 0 50px 21.1%;
-
 	background-color: #34547A;
+	color: #FFFFFF;
 }
 
 footer h4 {
 	margin-bottom: 20px;
-
-	font-weight: 500;
 	font-size: 21px;
 	line-height: 25px;
-	color: #FFFFFF;
 }
 
 footer p {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 21px;
-	color: #FFFFFF;
-
 }
