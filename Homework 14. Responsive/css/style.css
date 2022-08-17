@@ -161,21 +161,21 @@ header .login-buttons .signup-button {
 	padding-bottom: 20px;
 }
 
-.steps .steps-cards .steps-card:first-child {
+.steps-card:first-child {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/steps/step1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.steps .steps-cards .steps-card:nth-child(2) {
+.steps-card:nth-child(2) {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/steps/step2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.steps .steps-cards .steps-card:last-child {
+.steps-card:last-child {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/steps/step3.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -547,6 +547,7 @@ footer .designed-by h6 {
 
 	.steps .steps-cards .steps-card {
 		max-width: 100%;
+		width: 95%;
 		min-height: 400px;
 	}
 
