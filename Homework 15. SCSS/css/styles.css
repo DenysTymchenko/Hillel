@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF805D;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  background-color: #52AACA;
+  margin: 25vh 0;
+}
+.social__small-block {
+  width: 7%;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  border: #52AACA 1px solid;
+  background-color: #66BEDC;
+}
+.social__small-block img {
+  width: 35%;
+  transition: 0.6s ease-in-out;
+}
+.social__small-block:hover {
+  border: none;
+}
+.social__small-block:hover + .social__info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.social__small-block:hover img {
+  width: 50%;
+}
+.social .twitter {
+  transition: 0.6s ease-in-out;
+}
+.social .twitter:hover {
+  background: rgb(22, 186, 219);
+  background: linear-gradient(180deg, rgba(22, 186, 219, 0.676703958) 46%, rgba(5, 189, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .facebook {
+  transition: 0.6s ease-in-out;
+}
+.social .facebook:hover {
+  background: rgb(22, 77, 219);
+  background: linear-gradient(180deg, rgba(22, 77, 219, 0.676703958) 46%, rgba(5, 76, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .linkedin {
+  transition: 0.6s ease-in-out;
+}
+.social .linkedin:hover {
+  background: rgb(22, 156, 219);
+  background: linear-gradient(180deg, rgba(22, 156, 219, 0.676703958) 46%, rgba(5, 132, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .instagram {
+  transition: 0.6s ease-in-out;
+}
+.social .instagram:hover {
+  background: rgb(22, 219, 30);
+  background: linear-gradient(180deg, rgba(22, 219, 30, 0.676703958) 46%, rgba(100, 245, 5, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .youtube {
+  transition: 0.6s ease-in-out;
+}
+.social .youtube:hover {
+  background: rgb(219, 22, 22);
+  background: linear-gradient(180deg, rgba(219, 22, 22, 0.676703958) 46%, rgba(245, 5, 5, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .tumblr {
+  transition: 0.6s ease-in-out;
+}
+.social .tumblr:hover {
+  background: rgb(22, 44, 219);
+  background: linear-gradient(180deg, rgba(22, 44, 219, 0.676703958) 46%, rgba(5, 11, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .dribbble {
+  transition: 0.6s ease-in-out;
+}
+.social .dribbble:hover {
+  background: rgb(215, 22, 219);
+  background: linear-gradient(180deg, rgba(215, 22, 219, 0.676703958) 46%, rgba(245, 5, 197, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social__info-block {
+  display: none;
+  width: 30%;
+  background-color: white;
+  padding: 0 10px;
+}
+.social__info-block h2 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+}
+.social__info-block p {
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=styles.css.map */

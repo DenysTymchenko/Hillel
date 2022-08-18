@@ -1,0 +1,5 @@
+@mixin gradient($color1, $color2) {
+	background: $color1;
+	background: linear-gradient(180deg, rgba($color1, 0.6767039579503676) 46%, rgba($color2, 0.6542949943649334) 59%);
+	transition: .6s ease-in-out;
+}
