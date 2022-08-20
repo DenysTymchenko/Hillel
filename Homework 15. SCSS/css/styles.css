@@ -8,108 +8,125 @@ body {
   background-color: #FF805D;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .social {
   width: 100%;
+  height: 250px;
   display: flex;
   background-color: #52AACA;
   margin: 25vh 0;
 }
-.social__small-block {
-  width: 7%;
-  min-height: 250px;
+.social__item {
+  width: 100px;
+  min-height: 100%;
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+.social__item-icon {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.social__item-icon .icon-default,
+.social__item-icon .icon-changed {
+  width: 100px;
   display: flex;
   justify-content: center;
-  border: #52AACA 1px solid;
+}
+.social__item-icon .icon-default {
   background-color: #66BEDC;
+  border: #52AACA 2px solid;
+  transition: 0.5s ease-in-out;
 }
-.social__small-block img {
-  width: 35%;
-  transition: 0.6s ease-in-out;
+.social__item-icon .icon-default img {
+  width: 50%;
 }
-.social__small-block:hover {
-  border: none;
+.social__item-icon .icon-changed {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  transition: 0.5s ease-in-out;
 }
-.social__small-block:hover + .social__info-block {
+.social__item-icon .icon-changed img {
+  width: 75%;
+}
+.social__item-icon:hover + .social__item-info {
+  width: 500px;
+  padding: 0 10px;
+}
+.social__item-info {
+  width: 0%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-}
-.social__small-block:hover img {
-  width: 50%;
-}
-.social .twitter {
-  transition: 0.6s ease-in-out;
-}
-.social .twitter:hover {
-  background: rgb(22, 186, 219);
-  background: linear-gradient(180deg, rgba(22, 186, 219, 0.676703958) 46%, rgba(5, 189, 245, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .facebook {
-  transition: 0.6s ease-in-out;
-}
-.social .facebook:hover {
-  background: rgb(22, 77, 219);
-  background: linear-gradient(180deg, rgba(22, 77, 219, 0.676703958) 46%, rgba(5, 76, 245, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .linkedin {
-  transition: 0.6s ease-in-out;
-}
-.social .linkedin:hover {
-  background: rgb(22, 156, 219);
-  background: linear-gradient(180deg, rgba(22, 156, 219, 0.676703958) 46%, rgba(5, 132, 245, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .instagram {
-  transition: 0.6s ease-in-out;
-}
-.social .instagram:hover {
-  background: rgb(22, 219, 30);
-  background: linear-gradient(180deg, rgba(22, 219, 30, 0.676703958) 46%, rgba(100, 245, 5, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .youtube {
-  transition: 0.6s ease-in-out;
-}
-.social .youtube:hover {
-  background: rgb(219, 22, 22);
-  background: linear-gradient(180deg, rgba(219, 22, 22, 0.676703958) 46%, rgba(245, 5, 5, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .tumblr {
-  transition: 0.6s ease-in-out;
-}
-.social .tumblr:hover {
-  background: rgb(22, 44, 219);
-  background: linear-gradient(180deg, rgba(22, 44, 219, 0.676703958) 46%, rgba(5, 11, 245, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social .dribbble {
-  transition: 0.6s ease-in-out;
-}
-.social .dribbble:hover {
-  background: rgb(215, 22, 219);
-  background: linear-gradient(180deg, rgba(215, 22, 219, 0.676703958) 46%, rgba(245, 5, 197, 0.6542949944) 59%);
-  transition: 0.6s ease-in-out;
-}
-.social__info-block {
-  display: none;
-  width: 30%;
   background-color: white;
+  transition: 0.5s ease-in-out;
+}
+.social__item-info:hover {
+  width: 500px;
   padding: 0 10px;
 }
-.social__info-block h2 {
+.social__item-info h2 {
   font-family: sans-serif;
   font-weight: 100;
   font-size: 40px;
   letter-spacing: 0.01em;
 }
-.social__info-block p {
+.social__item-info p {
+  width: 450px;
   font-family: sans-serif;
   font-size: 19px;
   line-height: 1.5;
+}
+.social__item:hover .icon-default,
+.social__item:hover .icon-changed, .social__item-icon:hover .icon-default,
+.social__item-icon:hover .icon-changed {
+  transform: translateX(-100%);
+}
+.social__item:hover {
+  width: 600px;
+}
+.social .twitter {
+  background: rgb(22, 186, 219);
+  background: linear-gradient(180deg, rgba(22, 186, 219, 0.676703958) 46%, rgba(5, 189, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .facebook {
+  background: rgb(22, 77, 219);
+  background: linear-gradient(180deg, rgba(22, 77, 219, 0.676703958) 46%, rgba(5, 76, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .linkedin {
+  background: rgb(22, 156, 219);
+  background: linear-gradient(180deg, rgba(22, 156, 219, 0.676703958) 46%, rgba(5, 132, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .instagram {
+  background: rgb(22, 219, 30);
+  background: linear-gradient(180deg, rgba(22, 219, 30, 0.676703958) 46%, rgba(100, 245, 5, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .youtube {
+  background: rgb(219, 22, 22);
+  background: linear-gradient(180deg, rgba(219, 22, 22, 0.676703958) 46%, rgba(245, 5, 5, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .tumblr {
+  background: rgb(22, 44, 219);
+  background: linear-gradient(180deg, rgba(22, 44, 219, 0.676703958) 46%, rgba(5, 11, 245, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
+}
+.social .dribbble {
+  background: rgb(215, 22, 219);
+  background: linear-gradient(180deg, rgba(215, 22, 219, 0.676703958) 46%, rgba(245, 5, 197, 0.6542949944) 59%);
+  transition: 0.6s ease-in-out;
 }
 
 /*# sourceMappingURL=styles.css.map */
