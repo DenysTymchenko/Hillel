@@ -1,0 +1,63 @@
+.space {
+  height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/space-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 75px;
+}
+
+.earth {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 50%;
+  }
+}
+
+.moon {
+  width: 125px;
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  top: 50%;
+  animation: moon-spinning 5s ease-in-out infinite;
+
+  img {
+    width: 100%;
+  }
+}
+
+@keyframes moon-spinning {
+
+  0% {
+    width: 125px;
+    top: 50%;
+    left: 25%;
+    z-index: 2;
+  }
+
+  50% {
+    width: 95px;
+    left: 65%;
+    top: 40%;
+    z-index: 2;
+  }
+
+  51% {
+    z-index: 1;
+  }
+
+  100% {
+    width: 125px;
+    top: 50%;
+    left: 25%;
+    z-index: 1;
+  }
+}

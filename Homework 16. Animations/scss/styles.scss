@@ -1,0 +1,37 @@
+@use 'spin';
+@use 'pulse';
+@use 'moon';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 103, 207);
+}
+
+nav {
+  min-width: 75%;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+  }
+}
