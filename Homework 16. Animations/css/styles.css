@@ -212,7 +212,7 @@
   z-index: 2;
   left: 25%;
   top: 50%;
-  animation: moon-spinning 5s ease-in-out infinite;
+  animation: moon-spinning 8s ease-in-out infinite;
 }
 .moon img {
   width: 100%;
@@ -220,22 +220,25 @@
 
 @keyframes moon-spinning {
   0% {
-    width: 125px;
     top: 50%;
     left: 25%;
     z-index: 2;
   }
+  25% {
+    top: 55%;
+  }
   50% {
-    width: 95px;
     left: 65%;
-    top: 40%;
+    top: 50%;
     z-index: 2;
   }
   51% {
     z-index: 1;
   }
+  75% {
+    top: 40%;
+  }
   100% {
-    width: 125px;
     top: 50%;
     left: 25%;
     z-index: 1;
