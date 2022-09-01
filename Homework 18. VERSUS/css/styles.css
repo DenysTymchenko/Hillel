@@ -63,13 +63,8 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #999999;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   transition: 0.3s ease-in-out;
-}
-@media screen and (max-width: 768px) {
-  .header__link {
-    padding-bottom: 3px;
-  }
 }
 .header__link:hover {
   border-bottom: 1px solid #00D6B4;
@@ -101,9 +96,15 @@ a {
 }
 .get-a-quote__h1 {
   max-width: 485px;
+  font-weight: 400;
   font-size: 48px;
   line-height: 53px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .get-a-quote__h1 {
+    padding: 0 10px;
+  }
 }
 .get-a-quote__btn {
   opacity: 0.6;
@@ -127,6 +128,7 @@ a {
   gap: 35px;
 }
 .latest-work__h2 {
+  font-weight: 400;
   font-size: 25px;
   line-height: 30px;
 }

@@ -65,13 +65,9 @@ a {
         text-transform: uppercase;
         color: #999999;
 
-        padding-bottom: 2px;
+        padding-bottom: 3px;
 
         transition: .3s ease-in-out;
-
-        @include responsive.mobile {
-            padding-bottom: 3px;
-        }
 
         &:hover {
             border-bottom: 1px solid $emerald;
@@ -112,9 +108,14 @@ a {
     &__h1 {
         max-width: 485px;
 
+        font-weight: 400;
         font-size: 48px;
         line-height: 53px;
         text-align: center;
+
+        @include responsive.mobile {
+            padding: 0 10px;
+        }
     }
 
     &__btn {
@@ -148,6 +149,7 @@ a {
     gap: 35px;
 
     &__h2 {
+        font-weight: 400;
         font-size: 25px;
         line-height: 30px;
     }
